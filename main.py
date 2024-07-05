@@ -11,7 +11,7 @@ while True:
         break
 
     # Detecta rostos no frame
-    faces = faceDetect.detectMultiScale(frame, scaleFactor=1.3, minNeighbors=5)
+    faces = faceDetect.detectMultiScale(frame, 1.3, 5)
 
     # Desenha retângulos e linhas ao redor dos rostos detectados
     for x, y, w, h in faces:
