@@ -2,7 +2,7 @@ import cv2
 
 video = cv2.VideoCapture(0)
 
-# Carrega o classificador Haar Cascade para detecção de rostos
+# classificador Haar Cascade para detecção de rostos
 faceDetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 while True:
